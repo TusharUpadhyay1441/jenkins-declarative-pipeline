@@ -28,8 +28,10 @@ This setup ensures a **clear sequence of steps** for code compilation and packag
 
 ## Pipeline Code
 <img src="images/pipeline code.png">
+
 -------------------------------------
 
 ## Pipeline Result
 <img src="images/pipeline result.png">
+
 -------------------------------------
