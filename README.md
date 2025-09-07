@@ -23,3 +23,13 @@ This setup ensures a **clear sequence of steps** for code compilation and packag
    - Example: `mvn package`
 
 ---
+
+## 📸 Screenshots
+
+## Pipeline Code
+<img src="images/pipeline code.png">
+-------------------------------------
+
+## Pipeline Result
+<img src="images/pipeline result.png">
+-------------------------------------
