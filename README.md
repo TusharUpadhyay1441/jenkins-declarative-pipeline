@@ -1,17 +1,19 @@
 # Jenkins Declarative Pipeline – CI/CD Automation
 
-This repository demonstrates a Jenkins Declarative Pipeline setup designed to automate the software build lifecycle. The pipeline is defined within a Jenkinsfile and currently implements two core stages: Compile and Package. 
+This project demonstrates the implementation of a Jenkins Declarative Pipeline to automate the core stages of the software build lifecycle. The pipeline is defined using a Jenkinsfile, enabling a clean, version-controlled, and maintainable CI configuration.
+
+The objective of this project is to understand pipeline-as-code concepts, automate build processes, and establish a foundation for more advanced CI/CD workflows. 
 
 ---
 
-## 🔹 Project Overview
-The pipeline leverages Jenkins Declarative syntax, which provides a structured, readable, and maintainable configuration format. This approach facilitates a clear, step-by-step sequence for building and packaging software artifacts efficiently and reliably.
+## 🔹 Project Design
+The pipeline is written using Jenkins Declarative syntax, providing a structured and readable approach to defining build stages, making the pipeline easy to maintain and extend.
 
 ---
 
 ## 🔹 Pipeline Stages
 1. **Compile**
-   - Pulls the latest source code from the repository.
+   - Pulls the latest source code from the GitHub repository
    - Compiles the code.
    - Ensures there are no compilation errors.
    - Example: `mvn clean compile`
